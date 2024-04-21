@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Treats</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('subtle-pastel-stripes.png') repeat;
+        }
+        header {
+            background-color: #f8f8f8;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        .order-online {
+            background-color: #007BFF; /* Updated color for better contrast */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        .featured-baked-goods {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .baked-good {
+            width: 30%;
+            margin-bottom: 20px;
+        }
+        .baked-good img {
+            width: 100%;
+            height: auto;
+        }
+        .baked-good h3 {
+            margin: 10px 0;
+        }
+        .baked-good p {
+            margin: 0;
+        }
+        footer {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Visit Us</a></li>
+            </ul>
+        </nav>
+        <a href="menu.html" class="order-online">Order Online</a>
+    </header>
+    <main class="main-content">
+        <section class="featured-baked-goods">
+            <div class="baked-good">
+                <img src="bread.jpg" alt="Bread">
+                <h3>Fresh Bread</h3>
+                <p>Our freshly baked bread is made with the finest ingredients.</p>
+            </div>
+            <div class="baked-good">
+                <img src="cake.jpg" alt="Cake">
+                <h3>Delicious Cakes</h3>
+                <p>Experience the joy of our delicious cakes.</p>
+            </div>
+            <div class="baked-good">
+                <img src="pastries.jpg" alt="Pastries">
+                <h3>Sweet Pastries</h3>
+                <p>Indulge in our variety of sweet pastries.</p>
+            </div>
+        </section>
+        <section>
+            <h2>Seasonal Promotions</h2>
+            <p>Check out our current seasonal promotions!</p>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us at: 123 Bakery Street, Baketown, 12345</p>
+        <p>Email: info@sweettreatsbakery.com</p>
+        <form action="subscribe.php" method="post">
+            <label for="email">Email:</label> <!-- Added label for accessibility -->
+            <input type="email" id="email" name="email" placeholder="Enter your email"> <!-- Added id to match label -->
+            <input type="submit" value="Subscribe">
+        </form>
+    </footer>
+    <script>
+        // Example JavaScript functionality
+        // This could be used for adding items to a shopping cart, for example
+    </script>
+</body>
+</html>
